@@ -19,6 +19,8 @@
 # $ cd <mediapipe root dir>
 # $ bash ./setup_android_sdk_and_ndk.sh ~/Android/Sdk ~/Android/Ndk r21 [--accept-licenses]
 
+source ~/.bash_profile
+
 set -e
 
 if [ "$(uname)" == "Darwin" ]; then

@@ -503,3 +503,5 @@ cc_crosstool(name = "crosstool")
 
 load("//third_party:external_files.bzl", "external_files")
 external_files()
+android_sdk_repository(name = "androidsdk", path = "/Users/dorrinsotoudeh/Library/Android/sdk")
+android_ndk_repository(name = "androidndk", path = "/Users/dorrinsotoudeh/Library/Android/sdk/ndk/21.3.6528147", api_level=21)
