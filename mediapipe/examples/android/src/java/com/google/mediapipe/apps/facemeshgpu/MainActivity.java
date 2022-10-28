@@ -108,8 +108,6 @@ public class MainActivity extends com.google.mediapipe.apps.basic.MainActivity {
               // String base64 = Base64.encodeToString(baos.toByteArray(), Base64.DEFAULT);
               // tv.setText(tv.getText() + "\n 4");
 
-              cameraHelper.
-              
               resultImgVw.setImageBitmap(bm);
               tv.setVisibility(View.GONE);
               frameLayout.setVisibility(View.GONE);
